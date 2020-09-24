@@ -9,6 +9,7 @@ proxies:
   - {name: 🇭🇰 V2Ray_hk2, server: hk2.fanzh.cf, port: 443, type: vmess, uuid: 74ed5b7b-04c3-43f2-a763-65413c237f0d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /3850b854/, ws-headers: {Host: hk2.fanzh.cf}}
   - {name: 🇰🇷 V2Ray_kr, server: kr.fanzh.cf, port: 443, type: vmess, uuid: c5a1aedb-a3b4-4867-b28c-1e0dee23e3e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /6533/, ws-headers: {Host: kr.fanzh.cf}}
   - {name: 🇰🇷 V2Ray_kr2, server: kr2.fanzh.cf, port: 443, type: vmess, uuid: 96359470-637f-465e-8fd6-08d2985857f8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /7bcf5/, ws-headers: {Host: kr2.fanzh.cf}}
+  - {name: 🇯🇵 V2Ray_jp, server: jp.fanzh.cf, port: 443, type: vmess, uuid: 8ea2d89f-0418-43a8-bac3-2e42c095e4d9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /3799909ad/, ws-headers: {Host: jp.fanzh.cf}}
   - {name: 🇭🇰 V2Ray_qq, server: qq.fanzh.cf, port: 443, type: vmess, uuid: 146139b8-12fb-48eb-8de7-a19637d4b0ad, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /53c931/, ws-headers: {Host: qq.fanzh.cf}}
   - {name: 🇺🇲 V2Ray_us, server: us.fanzh.cf, port: 443, type: vmess, uuid: c60298b9-0033-451d-8b42-6522b4fb6f33, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /490a2282/, ws-headers: {Host: us.fanzh.cf}}
 proxy-groups:
@@ -23,6 +24,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_hk2
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇯🇵 V2Ray_jp
       - 🇭🇰 V2Ray_qq
       - 🇺🇲 V2Ray_us
   - name: ♻️ 自动选择
@@ -34,6 +36,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_hk2
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇯🇵 V2Ray_jp
       - 🇭🇰 V2Ray_qq
       - 🇺🇲 V2Ray_us
   - name: 🔯 故障转移
@@ -45,6 +48,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_hk2
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇯🇵 V2Ray_jp
       - 🇭🇰 V2Ray_qq
       - 🇺🇲 V2Ray_us
   - name: 🔮 负载均衡
@@ -56,6 +60,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_hk2
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇯🇵 V2Ray_jp
       - 🇭🇰 V2Ray_qq
       - 🇺🇲 V2Ray_us
   - name: 🎯 全球直连
@@ -81,6 +86,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_hk2
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇯🇵 V2Ray_jp
       - 🇭🇰 V2Ray_qq
       - 🇺🇲 V2Ray_us
 rules:
