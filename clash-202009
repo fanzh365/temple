@@ -6,15 +6,15 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 🇭🇰 V2Ray_hk
-    server: hk.fanzh.cf
-    port: 443
     type: vmess
-    uuid: be182746-e27a-4f6b-b8af-3c2f75c3a290
+    server: hk.fanzh.cf
+    port: "24076"
+    uuid: 13613e25-841f-4ffa-9218-c8b26d0b1984
     alterId: 64
     cipher: auto
     tls: true
     network: ws
-    ws-path: /1ef40d97/
+    ws-path: /9b5670c1/
     ws-headers:
       Host: hk.fanzh.cf
   - name: 🇭🇰 V2Ray_hk2
