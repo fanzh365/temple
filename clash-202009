@@ -18,29 +18,31 @@ proxies:
     ws-headers:
       Host: hk.fanzh.cf
   - name: 🇭🇰 V2Ray_hk2
-    server: hk2.fanzh.cf
-    port: 443
     type: vmess
-    uuid: 74ed5b7b-04c3-43f2-a763-65413c237f0d
+    server: hk2.fanzh.cf
+    port: "21925"
+    uuid: c9cf57cd-c184-41c0-8e25-34ec75dcd429
     alterId: 64
     cipher: auto
     tls: true
     network: ws
-    ws-path: /3850b854/
+    ws-path: /c4bfff22a45f94/
     ws-headers:
       Host: hk2.fanzh.cf
+    _index: 1
   - name: 🇭🇰 V2Ray_hk3
-    server: hk3.fanzh.cf
-    port: 443
     type: vmess
-    uuid: 7bf6b177-d041-4efd-b5d6-dbb13f9c7c35
+    server: hk3.fanzh.cf
+    port: "28963"
+    uuid: baab4420-b574-4760-a339-02a93a8e8c42
     alterId: 64
     cipher: auto
     tls: true
     network: ws
-    ws-path: /5924f8d48ce1de/
+    ws-path: /803ce8f9909f880/
     ws-headers:
       Host: hk3.fanzh.cf
+    _index: 2
   - name: 🇭🇰 V2Ray_qq
     server: qq.fanzh.cf
     port: 443
@@ -54,9 +56,9 @@ proxies:
     ws-headers:
       Host: qq.fanzh.cf
   - name: 🇰🇷 V2Ray_kr
-    server: kr.fanzh.cf
-    port: 443
     type: vmess
+    server: kr.fanzh.cf
+    port: "34973"
     uuid: c5a1aedb-a3b4-4867-b28c-1e0dee23e3e2
     alterId: 64
     cipher: auto
@@ -65,10 +67,11 @@ proxies:
     ws-path: /6533/
     ws-headers:
       Host: kr.fanzh.cf
+    _index: 4
   - name: 🇰🇷 V2Ray_kr2
-    server: kr2.fanzh.cf
-    port: 443
     type: vmess
+    server: kr2.fanzh.cf
+    port: "18625"
     uuid: 96359470-637f-465e-8fd6-08d2985857f8
     alterId: 64
     cipher: auto
@@ -77,10 +80,11 @@ proxies:
     ws-path: /7bcf5/
     ws-headers:
       Host: kr2.fanzh.cf
+    _index: 5
   - name: 🇯🇵 V2Ray_jp
-    server: jp.fanzh.cf
-    port: 443
     type: vmess
+    server: jp.fanzh.cf
+    port: "32184"
     uuid: 8ea2d89f-0418-43a8-bac3-2e42c095e4d9
     alterId: 64
     cipher: auto
