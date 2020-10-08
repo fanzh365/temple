@@ -30,19 +30,6 @@ proxies:
     ws-headers:
       Host: hk2.fanzh.cf
     _index: 1
-  - name: 🇭🇰 V2Ray_hk3
-    type: vmess
-    server: hk3.fanzh.cf
-    port: "28963"
-    uuid: baab4420-b574-4760-a339-02a93a8e8c42
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /803ce8f9909f880/
-    ws-headers:
-      Host: hk3.fanzh.cf
-    _index: 2
   - name: 🇭🇰 V2Ray_qq
     server: qq.fanzh.cf
     port: 443
@@ -115,7 +102,6 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇭🇰 V2Ray_hk3
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
@@ -128,7 +114,6 @@ proxy-groups:
     proxies:
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇭🇰 V2Ray_hk3
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
@@ -141,7 +126,6 @@ proxy-groups:
     proxies:
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇭🇰 V2Ray_hk3
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
@@ -154,7 +138,6 @@ proxy-groups:
     proxies:
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇭🇰 V2Ray_hk3
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
@@ -181,7 +164,6 @@ proxy-groups:
       - 🔮 负载均衡
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇭🇰 V2Ray_hk3
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
