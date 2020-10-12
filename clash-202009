@@ -145,6 +145,14 @@ proxy-groups:
       - 🇰🇷 V2Ray_kr2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
+  - name: 🇭🇰♻️ V2Ray-hk
+    proxies:
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: "300"
+    _index: 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,14 +180,6 @@ proxy-groups:
       - 🇰🇷 V2Ray_kr2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
-  - name: 🇭🇰♻️ V2Ray-hk
-    proxies:
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: "300"
-    _index: 7
 rules:
   - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
