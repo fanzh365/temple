@@ -112,7 +112,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 180
     proxies:
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
@@ -151,7 +151,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_hk2
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: "300"
+    interval: "180"
     _index: 7
   - name: 🎯 全球直连
     type: select
