@@ -34,8 +34,8 @@ proxies:
   - name: 🇭🇰 V2Ray_qq
     type: vmess
     server: qq.fanzh.cf
-    port: 39685
-    uuid: 0574591c-5776-46c4-be15-bba5e02a8a37
+    port: 443
+    uuid: 736d7667-1a6b-4ab1-8781-5fa6828b919b
     alterId: 64
     cipher: auto
     tls: true
