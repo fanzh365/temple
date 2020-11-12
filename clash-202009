@@ -81,17 +81,6 @@ proxies:
     ws-path: /3799909ad/
     ws-headers:
       Host: jp.fanzh.cf
-  - name: 🇺🇲 V2Ray_heroku
-    type: vmess
-    server: little-field-bc23.fanzh.workers.dev
-    port: "443"
-    uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-    alterId: "64"
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: ""
   - name: 🇺🇲 V2Ray_us
     server: us.fanzh.cf
     port: 443
@@ -120,7 +109,6 @@ proxy-groups:
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇯🇵 V2Ray_jp
-      - 🇺🇲 V2Ray_heroku
       - 🇺🇲 V2Ray_us
   - name: ♻️ 自动选择
     type: url-test
@@ -133,7 +121,6 @@ proxy-groups:
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇯🇵 V2Ray_jp
-      - 🇺🇲 V2Ray_heroku
       - 🇺🇲 V2Ray_us
     _index: 1
   - name: 🔯 故障转移
@@ -146,7 +133,6 @@ proxy-groups:
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇯🇵 V2Ray_jp
-      - 🇺🇲 V2Ray_heroku
       - 🇺🇲 V2Ray_us
   - name: 🔮 负载均衡
     type: load-balance
@@ -159,7 +145,6 @@ proxy-groups:
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇯🇵 V2Ray_jp
-      - 🇺🇲 V2Ray_heroku
       - 🇺🇲 V2Ray_us
   - name: 🇭🇰♻️ V2Ray-hk
     proxies:
@@ -195,7 +180,6 @@ proxy-groups:
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇯🇵 V2Ray_jp
-      - 🇺🇲 V2Ray_heroku
       - 🇺🇲 V2Ray_us
 rules:
   - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
