@@ -118,6 +118,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - DIRECT
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
@@ -136,12 +138,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
-      - 🇨🇳 V2Ray_tw
-      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
-      - 🇺🇲 V2Ray_us
     _index: 1
   - name: 🔯 故障转移
     type: fallback
@@ -151,12 +148,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
-      - 🇨🇳 V2Ray_tw
-      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
-      - 🇺🇲 V2Ray_us
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -165,12 +157,7 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
-      - 🇨🇳 V2Ray_tw
-      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
-      - 🇺🇲 V2Ray_us
   - name: 🎯 全球直连
     type: select
     proxies:
