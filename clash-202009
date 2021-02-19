@@ -5,18 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇨🇳 V2Ray_tw
-    server: tw.fanzh.cf
-    port: 443
-    type: vmess
-    uuid: 3d8e82d5-665c-495b-a458-d7856ae288f8
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /25f43c70698/
-    ws-headers:
-      Host: tw.fanzh.cf
   - name: 🇭🇰 V2Ray_qq
     server: qq.fanzh.cf
     port: 443
@@ -30,6 +18,18 @@ proxies:
     ws-headers:
       Host: qq.fanzh.cf
     _index: 0
+  - name: 🇨🇳 V2Ray_tw
+    server: tw.fanzh.cf
+    port: 443
+    type: vmess
+    uuid: 3d8e82d5-665c-495b-a458-d7856ae288f8
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /25f43c70698/
+    ws-headers:
+      Host: tw.fanzh.cf
   - name: 🇰🇷 V2Ray_kr
     server: kr.fanzh.cf
     port: 34973
@@ -110,8 +110,8 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
+      - 🇨🇳 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
@@ -123,8 +123,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
+      - 🇨🇳 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
@@ -137,8 +137,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
+      - 🇨🇳 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
@@ -150,8 +150,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
+      - 🇨🇳 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
@@ -177,8 +177,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
+      - 🇨🇳 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
