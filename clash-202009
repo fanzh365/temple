@@ -5,15 +5,114 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 V2Ray_qq, server: qq.fanzh.cf, port: 443, type: vmess, uuid: 736d7667-1a6b-4ab1-8781-5fa6828b919b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /6ab39a29dd/, ws-headers: {Host: qq.fanzh.cf}}
-  - {name: 🇰🇷 V2Ray_kr, server: kr.fanzh.cf, port: 34973, type: vmess, uuid: c5a1aedb-a3b4-4867-b28c-1e0dee23e3e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /6533/, ws-headers: {Host: kr.fanzh.cf}}
-  - {name: 🇰🇷 V2Ray_kr2, server: kr2.fanzh.cf, port: 18625, type: vmess, uuid: 96359470-637f-465e-8fd6-08d2985857f8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /7bcf5/, ws-headers: {Host: kr2.fanzh.cf}}
-  - {name: 🇭🇰 V2Ray_hk, server: hk.fanzh.cf, port: 24076, type: vmess, uuid: 13613e25-841f-4ffa-9218-c8b26d0b1984, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /9b5670c1/, ws-headers: {Host: hk.fanzh.cf}}
-  - {name: 🇭🇰 V2Ray_hk2, server: hk2.fanzh.cf, port: 21925, type: vmess, uuid: c9cf57cd-c184-41c0-8e25-34ec75dcd429, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /c4bfff22a45f94/, ws-headers: {Host: hk2.fanzh.cf}}
-  - {name: 🇨🇳 V2Ray_tw, server: tw.fanzh.cf, port: 443, type: vmess, uuid: 3d8e82d5-665c-495b-a458-d7856ae288f8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /25f43c70698/, ws-headers: {Host: tw.fanzh.cf}}
-  - {name: 🇨🇳 V2Ray_tw2, server: tw2.fanzh.cf, port: 443, type: vmess, uuid: 726fa724-56f3-4952-b532-9a585360104c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /23dfc/, ws-headers: {Host: tw2.fanzh.cf}}
-  - {name: 🇯🇵 V2Ray_jp, server: jp.fanzh.cf, port: 32184, type: vmess, uuid: 8ea2d89f-0418-43a8-bac3-2e42c095e4d9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /3799909ad/, ws-headers: {Host: jp.fanzh.cf}}
-  - {name: 🇺🇲 V2Ray_us, server: us.fanzh.cf, port: 443, type: vmess, uuid: 0ca0180c-e858-4d9b-b5c2-88c6f3c4cc9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /472981a7ff7adf8/, ws-headers: {Host: us.fanzh.cf}}
+  - name: 🇭🇰 V2Ray_qq
+    server: qq.fanzh.cf
+    port: 443
+    type: vmess
+    uuid: 736d7667-1a6b-4ab1-8781-5fa6828b919b
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /6ab39a29dd/
+    ws-headers:
+      Host: qq.fanzh.cf
+  - name: 🇰🇷 V2Ray_kr
+    server: kr.fanzh.cf
+    port: 34973
+    type: vmess
+    uuid: c5a1aedb-a3b4-4867-b28c-1e0dee23e3e2
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /6533/
+    ws-headers:
+      Host: kr.fanzh.cf
+  - name: 🇰🇷 V2Ray_kr2
+    server: kr2.fanzh.cf
+    port: 18625
+    type: vmess
+    uuid: 96359470-637f-465e-8fd6-08d2985857f8
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /7bcf5/
+    ws-headers:
+      Host: kr2.fanzh.cf
+  - name: 🇭🇰 V2Ray_hk
+    server: hk.fanzh.cf
+    port: 24076
+    type: vmess
+    uuid: 13613e25-841f-4ffa-9218-c8b26d0b1984
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /9b5670c1/
+    ws-headers:
+      Host: hk.fanzh.cf
+  - name: 🇭🇰 V2Ray_hk2
+    server: hk2.fanzh.cf
+    port: 21925
+    type: vmess
+    uuid: c9cf57cd-c184-41c0-8e25-34ec75dcd429
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /c4bfff22a45f94/
+    ws-headers:
+      Host: hk2.fanzh.cf
+  - name: 🇨🇳 V2Ray_tw
+    server: tw.fanzh.cf
+    port: 443
+    type: vmess
+    uuid: 3d8e82d5-665c-495b-a458-d7856ae288f8
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /25f43c70698/
+    ws-headers:
+      Host: tw.fanzh.cf
+  - name: 🇨🇳 V2Ray_tw2
+    server: tw2.fanzh.cf
+    port: 443
+    type: vmess
+    uuid: 726fa724-56f3-4952-b532-9a585360104c
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /23dfc/
+    ws-headers:
+      Host: tw2.fanzh.cf
+  - name: 🇯🇵 V2Ray_jp
+    server: jp.fanzh.cf
+    port: 32184
+    type: vmess
+    uuid: 8ea2d89f-0418-43a8-bac3-2e42c095e4d9
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /3799909ad/
+    ws-headers:
+      Host: jp.fanzh.cf
+  - name: 🇺🇲 V2Ray_us
+    server: us.fanzh.cf
+    port: 443
+    type: vmess
+    uuid: 0ca0180c-e858-4d9b-b5c2-88c6f3c4cc9f
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /472981a7ff7adf8/
+    ws-headers:
+      Host: us.fanzh.cf
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -37,7 +136,12 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
+      - 🇨🇳 V2Ray_tw
+      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
+      - 🇺🇲 V2Ray_us
     _index: 1
   - name: 🔯 故障转移
     type: fallback
@@ -47,7 +151,12 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
+      - 🇨🇳 V2Ray_tw
+      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
+      - 🇺🇲 V2Ray_us
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -56,7 +165,12 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
+      - 🇨🇳 V2Ray_tw
+      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
+      - 🇺🇲 V2Ray_us
   - name: 🎯 全球直连
     type: select
     proxies:
