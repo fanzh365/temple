@@ -5,6 +5,18 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇨🇳 V2Ray_tw
+    server: tw.fanzh.cf
+    port: 443
+    type: vmess
+    uuid: 3d8e82d5-665c-495b-a458-d7856ae288f8
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /25f43c70698/
+    ws-headers:
+      Host: tw.fanzh.cf
   - name: 🇭🇰 V2Ray_qq
     server: qq.fanzh.cf
     port: 443
@@ -66,30 +78,6 @@ proxies:
     ws-path: /c4bfff22a45f94/
     ws-headers:
       Host: hk2.fanzh.cf
-  - name: 🇨🇳 V2Ray_tw
-    server: tw.fanzh.cf
-    port: 443
-    type: vmess
-    uuid: 3d8e82d5-665c-495b-a458-d7856ae288f8
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /25f43c70698/
-    ws-headers:
-      Host: tw.fanzh.cf
-  - name: 🇨🇳 V2Ray_tw2
-    server: tw2.fanzh.cf
-    port: 443
-    type: vmess
-    uuid: 726fa724-56f3-4952-b532-9a585360104c
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /23dfc/
-    ws-headers:
-      Host: tw2.fanzh.cf
   - name: 🇯🇵 V2Ray_jp
     server: jp.fanzh.cf
     port: 32184
@@ -122,13 +110,12 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇨🇳 V2Ray_tw
-      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
   - name: ♻️ 自动选择
@@ -136,13 +123,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇨🇳 V2Ray_tw
-      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
     _index: 1
@@ -151,13 +137,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇨🇳 V2Ray_tw
-      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
   - name: 🔮 负载均衡
@@ -165,13 +150,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇨🇳 V2Ray_tw
-      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
   - name: 🎯 全球直连
@@ -193,13 +177,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 🇨🇳 V2Ray_tw
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
-      - 🇨🇳 V2Ray_tw
-      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
 rules:
