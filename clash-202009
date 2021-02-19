@@ -17,6 +17,7 @@ proxies:
     ws-path: /6ab39a29dd/
     ws-headers:
       Host: qq.fanzh.cf
+    _index: 0
   - name: 🇰🇷 V2Ray_kr
     server: kr.fanzh.cf
     port: 34973
@@ -138,7 +139,12 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
+      - 🇨🇳 V2Ray_tw
+      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
+      - 🇺🇲 V2Ray_us
     _index: 1
   - name: 🔯 故障转移
     type: fallback
@@ -148,7 +154,12 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
+      - 🇨🇳 V2Ray_tw
+      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
+      - 🇺🇲 V2Ray_us
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -157,7 +168,12 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
+      - 🇨🇳 V2Ray_tw
+      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
+      - 🇺🇲 V2Ray_us
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,7 +196,12 @@ proxy-groups:
       - 🇭🇰 V2Ray_qq
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
+      - 🇨🇳 V2Ray_tw
+      - 🇨🇳 V2Ray_tw2
       - 🇯🇵 V2Ray_jp
+      - 🇺🇲 V2Ray_us
 rules:
   - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
