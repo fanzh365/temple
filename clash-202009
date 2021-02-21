@@ -18,10 +18,10 @@ proxies:
     ws-headers:
       Host: qq.fanzh.cf
     _index: 0
-  - name: 🇨🇳 V2Ray_tw
+  - name: 🇹🇼 V2Ray_tw
+    type: vmess
     server: tw.fanzh.cf
     port: 443
-    type: vmess
     uuid: 3d8e82d5-665c-495b-a458-d7856ae288f8
     alterId: 64
     cipher: auto
@@ -111,7 +111,7 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - 🇭🇰 V2Ray_qq
-      - 🇨🇳 V2Ray_tw
+      - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
@@ -124,7 +124,7 @@ proxy-groups:
     interval: 180
     proxies:
       - 🇭🇰 V2Ray_qq
-      - 🇨🇳 V2Ray_tw
+      - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
@@ -138,7 +138,7 @@ proxy-groups:
     interval: 180
     proxies:
       - 🇭🇰 V2Ray_qq
-      - 🇨🇳 V2Ray_tw
+      - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
@@ -151,7 +151,7 @@ proxy-groups:
     interval: 180
     proxies:
       - 🇭🇰 V2Ray_qq
-      - 🇨🇳 V2Ray_tw
+      - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
@@ -178,7 +178,7 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 🇭🇰 V2Ray_qq
-      - 🇨🇳 V2Ray_tw
+      - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
       - 🇭🇰 V2Ray_hk
