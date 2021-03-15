@@ -18,6 +18,30 @@ proxies:
     ws-headers:
       Host: qq.fanzh.cf
     _index: 0
+  - name: 🇭🇰 V2Ray_hk
+    type: vmess
+    server: hk.fanzh.cf
+    port: "443"
+    uuid: 056fcd3d-b958-4a42-8f62-478fbfb2a679
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /d34865be4e78b/
+    ws-headers:
+      Host: hk.fanzh.cf
+  - name: 🇭🇰 V2Ray_hk2
+    type: vmess
+    server: hk2.fanzh.cf
+    port: "443"
+    uuid: 1322531e-f2ce-4754-92c0-934ff0d4e3ba
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /88a5df5/
+    ws-headers:
+      Host: hk2.fanzh.cf
   - name: 🇹🇼 V2Ray_tw
     type: vmess
     server: tw.fanzh.cf
@@ -54,30 +78,6 @@ proxies:
     ws-path: /7bcf5/
     ws-headers:
       Host: kr2.fanzh.cf
-  - name: 🇭🇰 V2Ray_hk
-    type: vmess
-    server: hk.fanzh.cf
-    port: "443"
-    uuid: 056fcd3d-b958-4a42-8f62-478fbfb2a679
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /d34865be4e78b/
-    ws-headers:
-      Host: hk.fanzh.cf
-  - name: 🇭🇰 V2Ray_hk2
-    type: vmess
-    server: hk2.fanzh.cf
-    port: "443"
-    uuid: 1322531e-f2ce-4754-92c0-934ff0d4e3ba
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /88a5df5/
-    ws-headers:
-      Host: hk2.fanzh.cf
   - name: 🇯🇵 V2Ray_jp
     server: jp.fanzh.cf
     port: 32184
@@ -111,11 +111,11 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - 🇭🇰 V2Ray_qq
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
   - name: ♻️ 自动选择
@@ -124,11 +124,11 @@ proxy-groups:
     interval: 180
     proxies:
       - 🇭🇰 V2Ray_qq
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
     _index: 1
@@ -138,11 +138,11 @@ proxy-groups:
     interval: 180
     proxies:
       - 🇭🇰 V2Ray_qq
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
   - name: 🔮 负载均衡
@@ -151,11 +151,11 @@ proxy-groups:
     interval: 180
     proxies:
       - 🇭🇰 V2Ray_qq
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
   - name: 🎯 全球直连
@@ -178,11 +178,11 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 🇭🇰 V2Ray_qq
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
 rules:
