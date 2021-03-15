@@ -67,15 +67,15 @@ proxies:
     ws-headers:
       Host: hk.fanzh.cf
   - name: 🇭🇰 V2Ray_hk2
-    server: hk2.fanzh.cf
-    port: 21925
     type: vmess
-    uuid: c9cf57cd-c184-41c0-8e25-34ec75dcd429
+    server: hk2.fanzh.cf
+    port: "443"
+    uuid: 1322531e-f2ce-4754-92c0-934ff0d4e3ba
     alterId: 64
     cipher: auto
     tls: true
     network: ws
-    ws-path: /c4bfff22a45f94/
+    ws-path: /88a5df5/
     ws-headers:
       Host: hk2.fanzh.cf
   - name: 🇯🇵 V2Ray_jp
