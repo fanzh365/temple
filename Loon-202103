@@ -22,6 +22,7 @@ skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlyna
 🚀 节点选择 = select,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,DIRECT,🇭🇰 V2Ray_qq,🇭🇰 V2Ray_hk,🇭🇰 V2Ray_hk2,🇨🇳 V2Ray_tw,🇰🇷 V2Ray_kr,🇰🇷 V2Ray_kr2,🇯🇵 V2Ray_jp,🇺🇲 V2Ray_us,🇭🇰 SSR_hk
 ♻️ 自动选择 = url-test,🇭🇰 V2Ray_qq,🇭🇰 V2Ray_hk,🇭🇰 V2Ray_hk2,🇨🇳 V2Ray_tw,🇰🇷 V2Ray_kr,🇰🇷 V2Ray_kr2,🇯🇵 V2Ray_jp,🇺🇲 V2Ray_us,🇭🇰 SSR_hk,url=http://www.gstatic.com/generate_204,interval=300
 🔯 故障转移 = fallback,🇭🇰 V2Ray_qq,🇭🇰 V2Ray_hk,🇭🇰 V2Ray_hk2,🇨🇳 V2Ray_tw,🇰🇷 V2Ray_kr,🇰🇷 V2Ray_kr2,🇯🇵 V2Ray_jp,🇺🇲 V2Ray_us,🇭🇰 SSR_hk,url=http://www.gstatic.com/generate_204,interval=180
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,🇭🇰 V2Ray_qq,🇭🇰 V2Ray_hk,🇭🇰 V2Ray_hk2,🇨🇳 V2Ray_tw,🇰🇷 V2Ray_kr,🇰🇷 V2Ray_kr2,🇯🇵 V2Ray_jp,🇺🇲 V2Ray_us,🇭🇰 SSR_hk
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🔯 故障转移,🔮 负载均衡,🇭🇰 V2Ray_qq,🇭🇰 V2Ray_hk,🇭🇰 V2Ray_hk2,🇨🇳 V2Ray_tw,🇰🇷 V2Ray_kr,🇰🇷 V2Ray_kr2,🇯🇵 V2Ray_jp,🇺🇲 V2Ray_us,🇭🇰 SSR_hk
@@ -36,6 +37,7 @@ https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 �
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🛑 全球拦截
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 苹果服务
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,🚀 节点选择
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🚀 节点选择
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,🚀 节点选择
