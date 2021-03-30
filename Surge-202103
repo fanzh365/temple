@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://subcon.dlj.tf/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffanzh365%2Ftemple%2Fmaster%2Fv2ray-202002%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Ffanzh365%2Ftemple%2Fmaster%2Fssr-202002&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini interval=86400 strict=false
 
 [General]
-loglevel = notify
+
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
 #DNS设置或根据自己网络情况进行相应设置
