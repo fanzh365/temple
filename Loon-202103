@@ -52,6 +52,6 @@ enable=true
 https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
 
 [MITM]
-enable=true
+enable=false
 hostname=*.example.com,*.sample.com
 skip-server-cert-verify=true
