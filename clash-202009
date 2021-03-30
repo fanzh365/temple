@@ -138,11 +138,11 @@ proxy-groups:
     interval: 180
     proxies:
       - 🇭🇰 V2Ray_qq
-      - 🇭🇰 V2Ray_hk
-      - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
+      - 🇭🇰 V2Ray_hk
+      - 🇭🇰 V2Ray_hk2
       - 🇯🇵 V2Ray_jp
       - 🇺🇲 V2Ray_us
   - name: 🔮 负载均衡
