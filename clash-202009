@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇭🇰 V2Ray_qq
-    server: qq.fanzh.cf
-    port: 443
-    type: vmess
-    uuid: 736d7667-1a6b-4ab1-8781-5fa6828b919b
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-path: /6ab39a29dd/
-    ws-headers:
-      Host: qq.fanzh.cf
-    _index: 0
   - name: 🇭🇰 V2Ray_hk
     type: vmess
     server: hk.fanzh.cf
@@ -110,7 +97,6 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇭🇰 V2Ray_qq
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
@@ -123,7 +109,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 V2Ray_qq
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
@@ -137,7 +122,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 V2Ray_qq
       - 🇹🇼 V2Ray_tw
       - 🇰🇷 V2Ray_kr
       - 🇰🇷 V2Ray_kr2
@@ -150,7 +134,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 V2Ray_qq
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
@@ -177,7 +160,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇭🇰 V2Ray_qq
       - 🇭🇰 V2Ray_hk
       - 🇭🇰 V2Ray_hk2
       - 🇹🇼 V2Ray_tw
