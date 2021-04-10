@@ -50,7 +50,7 @@ proxies:
     cipher: auto
     tls: true
     network: ws
-    ws-path: /6533/
+    ws-path: /b1678/
     ws-headers:
       Host: kr.fanzh.cf
   - name: 🇰🇷 V2Ray_kr2
